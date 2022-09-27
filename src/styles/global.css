@@ -1,0 +1,16 @@
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Caskaydia Code';
+    font-weight: 400;
+    src: url('/fonts/Caskaydia Cove Nerd Font Complete.ttf') format('truetype'),
+        url('/fonts/Caskaydia Cove Nerd Font Complete.woff2') format('woff2');
+}
+
+html,
+body {
+    font-family: 'Caskaydia Code', Fallback, sans-serif;
+}

@@ -1,0 +1,12 @@
+---
+import DarkMode from './DarkMode.astro';
+
+const today = new Date();
+---
+
+<footer class="text-center flex flex-row justify-center items-center py-8 mt-auto">
+    <DarkMode class="mr-3" />
+    {today.getFullYear()} - Made with ❤️ by <a href="https://jackweath.com" class="underline mx-2"
+        >Jack Weatherley</a
+    > -<a class="underline ml-2" href="/privacy-policy">Privacy Policy</a>
+</footer>
